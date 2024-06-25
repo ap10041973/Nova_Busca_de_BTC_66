@@ -1,4 +1,4 @@
-Este script necessita da linguagem de programação Pithon.
+Este script necessita da linguagem de programação Python.
 
 Que pode ser instalado através do Prompt de comando utilizando o comando:
 
