@@ -1,0 +1,30 @@
+Este script necessita da linguagem de programação Pithon.
+
+Que pode ser instalado através do Prompt de comando utilizando o comando:
+
+winget install Python.Python.3.12
+
+ou através do download direto do site:
+
+https://www.python.org/downloads/
+
+Na raiz (c:\) dentro do diretório Piton onde devem estar estes arquivos executar o comando:
+
+pip install bit
+
+e depois:
+
+python find_bitcoin_address.py
+
+Este script localiza o puzzle 66
+
+https://privatekeys.pw/puzzles/bitcoin-puzzle-tx
+
+Caso queira localizar outro, altera o intervalo e a chave bitcoin no arquivo:
+
+find_bitcoin_address.py
+
+Estando estes arquivos no diretório c:\Piton, pode ser utilizado o Piton.bat para iniciar a execução do mesmo.
+Recomenda-se criar um atalho na área de trabalho, alterar para executar maximizado, executar como administrador e alterar o nome e o ícone, tudo isso para facilitar a execução e questão de estética.
+
+O arquivo find_bitcoin_address_66 pode ocorrer de repetir a aleatoriedade, já no testa_reincidencia_find_bitcoin_address_66 não, porém consome memória infinita para isso, pois ele guarda as chaves já testadas, chega uma hora dá erro por ter consumido toda a memória.
